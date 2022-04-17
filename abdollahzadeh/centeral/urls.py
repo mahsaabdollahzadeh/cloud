@@ -3,8 +3,9 @@ from .import views
 
 
 
-urlspatterns=[
 
-    path('',views.centeral, name='centeral'),
+urlpatterns = [
+
+    path('center/',views.centeral),
 
 ]
